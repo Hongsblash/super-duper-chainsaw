@@ -1,0 +1,46 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .welcome-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    background-color: rgba(50, 50, 50, 0.8);
+    color: white;
+    animation: fadeIn 3s;
+  }
+  
+  .welcome-message h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  
+  .welcome-message p {
+    font-size: 1.5rem;
+  }
+  
+  .welcome-message button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.1rem;
+  }
+  
+  .welcome-message button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  

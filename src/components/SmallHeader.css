@@ -1,0 +1,21 @@
+.small-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 6rem;
+    background-color: rgba(15, 15, 15, 0.8);
+    color: white;
+  }
+  
+  .small-header a {
+    color: white;
+  }
+  
+  .small-header a:hover {
+    text-decoration: underline;
+  }
+  
+  .small-header .contact-info {
+    display: flex;
+    gap: 1rem; /* Set the gap between the contact information items */
+  }

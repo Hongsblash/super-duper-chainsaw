@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/super-duper-chainsaw/static/css/main.2dfe9483.css",
+    "main.js": "/super-duper-chainsaw/static/js/main.076e2ee9.js",
+    "static/js/787.6f5819ef.chunk.js": "/super-duper-chainsaw/static/js/787.6f5819ef.chunk.js",
+    "index.html": "/super-duper-chainsaw/index.html",
+    "main.2dfe9483.css.map": "/super-duper-chainsaw/static/css/main.2dfe9483.css.map",
+    "main.076e2ee9.js.map": "/super-duper-chainsaw/static/js/main.076e2ee9.js.map",
+    "787.6f5819ef.chunk.js.map": "/super-duper-chainsaw/static/js/787.6f5819ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dfe9483.css",
+    "static/js/main.076e2ee9.js"
+  ]
+}

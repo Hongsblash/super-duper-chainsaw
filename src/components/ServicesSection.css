@@ -6,7 +6,8 @@
     min-height: 400px;
     text-align: center;
     padding: 2rem 0;
-    background-color: rgba(245, 245, 245, 0.8);
+    background-color: rgba(221, 221, 221, 0.8);
+    padding-bottom: 4rem;
   }
   
   .services-section h2 {

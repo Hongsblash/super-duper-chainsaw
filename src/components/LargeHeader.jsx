@@ -8,24 +8,24 @@ const LargeHeader = () => {
       <nav>
         <ul>
           <li>
-            <a href="/">Link 1</a>
+            <a href="/">Services</a>
             <div className="dropdown-menu">
-              <a href="/sublink1">Sublink 1</a>
-              <a href="/sublink2">Sublink 2</a>
-              <a href="/sublink3">Sublink 3</a>
-              <a href="/sublink4">Sublink 4</a>
+              <a href="/sublink1">Taxation and Accounting</a>
+              <a href="/sublink2">Business Advisory</a>
+              <a href="/sublink3">Innovation</a>
+              <a href="/sublink4">Financial Planning</a>
             </div>
           </li>
           <li>
-            <a href="/">Link 2</a>
+            <a href="/">Utilities</a>
             <div className="dropdown-menu">
-              <a href="/sublink5">Sublink 5</a>
-              <a href="/sublink6">Sublink 6</a>
-              <a href="/sublink7">Sublink 7</a>
+              <a href="/sublink5">Terms</a>
+              <a href="/sublink6">Privacy</a>
+              <a href="/sublink7">Sitemap</a>
             </div>
           </li>
-          <li><a href="/">Link 3</a></li>
-          <li><a href="/">Link 4</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
         </ul>
       </nav>
     </header>

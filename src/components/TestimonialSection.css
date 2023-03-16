@@ -3,11 +3,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 400px;
+    min-height: 350px;
     text-align: center;
     padding: 2rem 0;
-    background-color: #f9f9f9;
-    margin-bottom: 3rem;
+    background-color: rgba(221, 221, 221, 0.8);
+    padding-bottom: 6rem;
   }
   
   .testimonial-section h2 {

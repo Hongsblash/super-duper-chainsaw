@@ -86,3 +86,28 @@
     gap: 0.5rem;
   }
   
+  /*--------- Mobile Compatibility   ---------*/
+
+  @media (max-width: 600px) {
+    .large-header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .large-header .nav-items {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .large-header .nav-item {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+  
+    .large-header .dropdown-content {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  

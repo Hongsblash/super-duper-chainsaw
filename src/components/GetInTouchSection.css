@@ -31,4 +31,15 @@
     background-color: rgba(255, 255, 255, 0.2);
   }
   
+  /*--------- Mobile Compatibility   ---------*/
+
+  @media (max-width: 768px) {
+    .get-in-touch-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .get-in-touch-section p {
+      font-size: 1rem;
+    }
+  }
   

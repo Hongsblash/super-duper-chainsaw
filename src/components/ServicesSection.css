@@ -56,3 +56,11 @@
     color: rgba(50, 50, 50, 0.8);
   }
   
+  /*--------- Mobile Compatibility   ---------*/
+
+  @media (max-width: 768px) {
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

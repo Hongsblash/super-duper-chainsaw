@@ -19,3 +19,19 @@
     display: flex;
     gap: 1rem; /* Set the gap between the contact information items */
   }
+
+  /*--------- Mobile Compatibility   ---------*/
+
+  @media (max-width: 600px) {
+    .small-header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-left: 1rem;
+    }
+  
+    .contact-info {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  

@@ -21,13 +21,13 @@
   background: linear-gradient(120deg, #f7cac9, #92a8d1, #f7cac9);
   background-size: 200% 200%;
   animation: gradient-background 15s ease infinite;
-  border-bottom: 2px solid #494949;
+  border-bottom: 2px solid #5a3d7d;
 }
 
 .welcome-message h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #333333;
+  color: #5a3d7d;
 }
 
 .welcome-message p {
@@ -37,7 +37,7 @@
 }
 
 .welcome-message .welcome-button {
-  background-color: #333333;
+  background-color: #5a3d7d;
   color: white;
   border: none;
   padding: 0.8rem 1.2rem;
@@ -48,7 +48,7 @@
 }
 
 .welcome-message .welcome-button:hover {
-  background-color: #555555;
+  background-color: #7a5399;
 }
 
 /*--------- Mobile Compatibility ---------*/

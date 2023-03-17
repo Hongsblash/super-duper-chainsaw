@@ -1,45 +1,47 @@
 .get-in-touch-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 300px;
-    text-align: center;
-    background-color: rgba(50, 50, 50, 0.8);
-    color: white;
-    padding-bottom: 2rem;
-    border-top: 2px solid rgba(50, 50, 50, 0.8);
-    border-bottom: 2px solid rgba(50, 50, 50, 0.8);
-  }
-  
-  .get-in-touch-section h2 {
-    margin-bottom: 1rem;
-    font-size: 2rem;
-  }
-  
-  .get-in-touch-section button {
-    background-color: transparent !important;
-    color: white !important;
-    border: 2px solid white !important;
-    padding: 0.5rem 1rem !important;
-    cursor: pointer !important;
-    transition: background-color 0.3s, color 0.3s;
-    font-size: 1.1rem !important;
-  }
-  
-  .get-in-touch-section button:hover {
-    background-color: rgba(255, 255, 255, 0.2) !important;
-  }
-  
-  /*--------- Mobile Compatibility   ---------*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 250px;
+  text-align: center;
+  background-color: #7300ff07;
+  color: #5a3d7d;
+  padding-bottom: 2rem;
+  border-top: 2px solid #7a5399;
+}
 
-  @media (max-width: 768px) {
-    .get-in-touch-section h2 {
-      font-size: 1.5rem;
-    }
-  
-    .get-in-touch-section p {
-      font-size: 1rem;
-    }
+.get-in-touch-section h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.get-in-touch-section p {
+  color: #7a5399;
+}
+
+.get-in-touch-section button {
+  background-color: transparent !important;
+  color: #5a3d7d !important;
+  border: 2px solid #5a3d7d !important;
+  padding: 0.5rem 1rem !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1.1rem !important;
+}
+
+.get-in-touch-section button:hover {
+  background-color: rgba(90, 61, 125, 0.1) !important;
+}
+
+/*--------- Mobile Compatibility ---------*/
+
+@media (max-width: 768px) {
+  .get-in-touch-section h2 {
+    font-size: 1.5rem;
   }
-  
+
+  .get-in-touch-section p {
+    font-size: 1rem;
+  }
+}

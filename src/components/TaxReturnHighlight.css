@@ -1,0 +1,61 @@
+.tax-return-highlight {
+    background-color: #410091c0;
+    padding: 2rem 0;
+    text-align: center;
+    min-height: 250px;
+    border-top: 2px solid #4a148cea;
+    border-bottom: 2px solid #4a148cea;
+  }
+  
+  .tax-return-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .tax-return-highlight h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .tax-return-highlight p {
+    color: #f0f0f0;
+    margin-bottom: 1rem;
+  }
+  
+  .find-out-more-btn {
+    margin-top: 2.5rem;
+    background-color: #8745d8;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .find-out-more-btn:hover {
+    background-color: #9c27b0;
+    color: #f0f0f0;
+  }
+  
+  /* iPhone 11 compatibility */
+@media (max-width: 414px) {
+    .tax-return-highlight {
+      padding: 2rem 1rem;
+    }
+  
+    .tax-return-highlight h2 {
+      font-size: 1.5rem;
+    }
+  
+    .tax-return-highlight p {
+      font-size: 1rem;
+    }
+  
+    .tax-return-highlight button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }

@@ -4,6 +4,7 @@ import LargeHeader from './components/LargeHeader';
 import WelcomeMessage from './components/WelcomeMessage';
 import About from './components/About';
 import ServicesSection from './components/ServicesSection';
+import TaxReturnHighlight from './components/TaxReturnHighlight'; // Add this line
 import GetInTouchSection from './components/GetInTouchSection';
 import TestimonialSection from './components/TestimonialSection';
 import TaxationAndAccounting from './components/TaxationAndAccounting';
@@ -29,6 +30,7 @@ function App() {
           <>
             <WelcomeMessage changeView={changeView} />
             <ServicesSection changeView={changeView} />
+            <TaxReturnHighlight changeView={changeView} /> {/* Add this line */}
             <TestimonialSection changeView={changeView} />
           </>
         );
@@ -36,28 +38,29 @@ function App() {
         return <About changeView={changeView} />;
       case 'taxationAndAccounting':
         return <TaxationAndAccounting changeView={changeView} />;
-      case 'businessAdvisory':
-        return <BusinessAdvisory changeView={changeView} />;
-      case 'innovation':
-        return <Innovation changeView={changeView} />;
-      case 'financialPlanning':
-        return <FinancialPlanning changeView={changeView} />;
-      case 'ContactUs':
-        return <ContactUs changeView={changeView} />;
-      default:
-        return null;
-    }
-  };
-
-  return (
-    <div className="App">
-      <SmallHeader />
-      <LargeHeader />
-      {renderView()}
-      {currentView !== 'ContactUs' && <GetInTouchSection changeView={changeView} />}
-      <Footer />
-    </div>
-  );
-}
-
-export default App;
+        case 'businessAdvisory':
+          return <BusinessAdvisory changeView={changeView} />;
+        case 'innovation':
+          return <Innovation changeView={changeView} />;
+        case 'financialPlanning':
+          return <FinancialPlanning changeView={changeView} />;
+        case 'ContactUs':
+          return <ContactUs changeView={changeView} />;
+        default:
+          return null;
+      }
+    };
+  
+    return (
+      <div className="App">
+        <SmallHeader />
+        <LargeHeader />
+        {renderView()}
+        {currentView !== 'ContactUs' && <GetInTouchSection changeView={changeView} />}
+        <Footer />
+      </div>
+    );
+  }
+  
+  export default App;
+  

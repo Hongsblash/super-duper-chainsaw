@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/super-duper-chainsaw/static/css/main.10ef5928.css",
-    "main.js": "/super-duper-chainsaw/static/js/main.8737785f.js",
+    "main.css": "/super-duper-chainsaw/static/css/main.21f07cc3.css",
+    "main.js": "/super-duper-chainsaw/static/js/main.b2cda82f.js",
     "static/js/787.6f5819ef.chunk.js": "/super-duper-chainsaw/static/js/787.6f5819ef.chunk.js",
+    "static/media/logo.svg": "/super-duper-chainsaw/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/super-duper-chainsaw/index.html",
-    "main.10ef5928.css.map": "/super-duper-chainsaw/static/css/main.10ef5928.css.map",
-    "main.8737785f.js.map": "/super-duper-chainsaw/static/js/main.8737785f.js.map",
+    "main.21f07cc3.css.map": "/super-duper-chainsaw/static/css/main.21f07cc3.css.map",
+    "main.b2cda82f.js.map": "/super-duper-chainsaw/static/js/main.b2cda82f.js.map",
     "787.6f5819ef.chunk.js.map": "/super-duper-chainsaw/static/js/787.6f5819ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10ef5928.css",
-    "static/js/main.8737785f.js"
+    "static/css/main.21f07cc3.css",
+    "static/js/main.b2cda82f.js"
   ]
 }

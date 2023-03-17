@@ -18,24 +18,26 @@
   min-height: 400px;
   text-align: center;
   padding: 2rem 0;
-  background: linear-gradient(120deg, rgba(235, 235, 235, 0.8), rgba(119, 119, 119, 0.8), rgba(235, 235, 235, 0.8));
+  background: linear-gradient(120deg, #f7cac9, #92a8d1, #f7cac9);
   background-size: 200% 200%;
   animation: gradient-background 15s ease infinite;
-  border-bottom: 2px solid rgba(50, 50, 50, 0.8);
+  border-bottom: 2px solid #494949;
 }
 
 .welcome-message h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #333333;
 }
 
 .welcome-message p {
   font-size: 1.5rem;
   margin-bottom: 2rem;
+  color: #666666;
 }
 
 .welcome-message .welcome-button {
-  background-color: rgba(50, 50, 50, 0.8);
+  background-color: #333333;
   color: white;
   border: none;
   padding: 0.8rem 1.2rem;
@@ -46,7 +48,7 @@
 }
 
 .welcome-message .welcome-button:hover {
-  background-color: rgba(50, 50, 50, 1);
+  background-color: #555555;
 }
 
 /*--------- Mobile Compatibility ---------*/

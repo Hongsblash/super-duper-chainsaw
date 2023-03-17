@@ -1,36 +1,37 @@
 import React from 'react';
 import './ServicesSection.css';
 import { FaCalculator, FaBriefcase, FaLightbulb, FaChartLine } from 'react-icons/fa';
+import { Button } from '@mui/material';
 
-const ServicesSection = () => {
+const ServicesSection = ({ changeView }) => {
   return (
     <section className="services-section">
       <h2>Our Expert Services</h2>
       <p>Experience the benefits of working with professionals</p>
       <div className="services-grid">
         <div className="service-box">
-          <button onClick={() => alert("Link to Taxation and Accounting page")}>
+          <Button onClick={() => changeView('taxationAndAccounting')} className="service-button">
             <FaCalculator className="service-icon" />
             Taxation and Accounting
-          </button>
+          </Button>
         </div>
         <div className="service-box">
-          <button onClick={() => alert("Link to Business Advisory page")}>
+          <Button onClick={() => changeView('businessAdvisory')} className="service-button">
             <FaBriefcase className="service-icon" />
             Business Advisory
-          </button>
+          </Button>
         </div>
         <div className="service-box">
-          <button onClick={() => alert("Link to Innovation page")}>
+          <Button onClick={() => changeView('innovation')} className="service-button">
             <FaLightbulb className="service-icon" />
             Innovation
-          </button>
+          </Button>
         </div>
         <div className="service-box">
-          <button onClick={() => alert("Link to Financial Planning page")}>
+          <Button onClick={() => changeView('financialPlanning')} className="service-button">
             <FaChartLine className="service-icon" />
             Financial Planning
-          </button>
+          </Button>
         </div>
       </div>
     </section>

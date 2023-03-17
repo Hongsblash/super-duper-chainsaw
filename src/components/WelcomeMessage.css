@@ -34,7 +34,7 @@
   margin-bottom: 2rem;
 }
 
-.welcome-message button {
+.welcome-message .welcome-button {
   background-color: rgba(50, 50, 50, 0.8);
   color: white;
   border: none;
@@ -45,11 +45,11 @@
   transition: background-color 0.3s;
 }
 
-.welcome-message button:hover {
+.welcome-message .welcome-button:hover {
   background-color: rgba(50, 50, 50, 1);
 }
 
-/*--------- Mobile Compatibility   ---------*/
+/*--------- Mobile Compatibility ---------*/
 
 @media (max-width: 768px) {
   .welcome-message h1 {
@@ -60,7 +60,7 @@
     font-size: 1.2rem;
   }
 
-  .welcome-message button {
+  .welcome-message .welcome-button {
     font-size: 1rem;
   }
 }

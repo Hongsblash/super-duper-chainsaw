@@ -1,14 +1,19 @@
 import React from 'react';
 import './WelcomeMessage.css';
+import { Button } from '@mui/material';
 
-const WelcomeMessage = () => {
+const WelcomeMessage = ({ changeView }) => {
   return (
     <div className="welcome-message">
       <h1>Welcome to ABC Accounting Firm</h1>
       <p>Your trusted partner for all your accounting needs</p>
-      <button onClick={() => alert("Link to a yet-to-be-determined page")}>
+      <Button
+        className="welcome-button"
+        variant="contained"
+        onClick={() => changeView('About')}
+      >
         Learn More
-      </button>
+      </Button>
     </div>
   );
 };

@@ -1,10 +1,11 @@
 import React from 'react';
 import './LargeHeader.css';
+import LOGO from '../assets/logo.svg';
 
 const LargeHeader = () => {
   return (
     <header className="large-header">
-      <img src="logo.png" alt="Logo" />
+      <img src={LOGO} alt="Logo" />
       <nav>
         <ul>
           <li>

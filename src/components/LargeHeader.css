@@ -1,113 +1,109 @@
 .large-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 6rem;
-    background-color: #333;
-  }
-  
-  .large-header img {
-    height: 50px;
-  }
-  
-  .large-header nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .large-header nav li {
-    position: relative;
-  }
-  
-  .large-header nav a {
-    color: #f0f0f0;
-    font-weight: bold;
-    text-decoration: none;
-    transition: color 0.3s;
-    padding: 8px; /* Add padding to create space around the link text */
-    border-radius: 8px; /* Add border-radius to make the link area rounded */
-    position: relative; /* Add position property for the ::before pseudo-element */
-  }
-  
-  .large-header nav a:hover {
-    color: #ffffff;
-  }
-  
-  .large-header nav a:hover::before {
-    content: "";
-    position: absolute;
-    top: -4px;
-    left: 4px;
-    right: 4px;
-    bottom: -4px;
-    background-color: #333; /* Transparent background on hover */
-    border-radius: 6px;
-    z-index: -1;
-  }
-  
-  
-  .dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #444;
-    border-radius: 6px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 0.5rem 0;
-    z-index: 100;
-  }
-  
-  .dropdown-menu a {
-    display: block;
-    padding: 0.5rem 1rem;
-    min-width: 200px;
-    color: #f0f0f0;
-    text-decoration: none;
-    transition: color 0.3s, background-color 0.3s;
-  }
-  
-  .dropdown-menu a:hover {
-    color: #ffffff;
-  }
-  
-  .large-header nav a:hover + .dropdown-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .large-header li:hover .dropdown-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  /*--------- Mobile Compatibility   ---------*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+  background-color: #333;
+}
 
-  @media (max-width: 600px) {
-    .large-header {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .large-header .nav-items {
-      margin-top: 1rem;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .large-header .nav-item {
-      margin-right: 0;
-      margin-bottom: 0.5rem;
-    }
-  
-    .large-header .dropdown-content {
-      left: 50%;
-      transform: translateX(-50%);
-    }
+.large-header img {
+  height: 50px;
+}
+
+.large-header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.large-header nav li {
+  position: relative;
+}
+
+.large-header nav a {
+  color: #f0f0f0;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding: 8px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.large-header nav a:hover {
+  color: #ffffff;
+}
+
+.large-header nav a:hover::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  right: 4px;
+  bottom: -4px;
+  background-color: #333;
+  border-radius: 6px;
+  z-index: -1;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 0;
+  z-index: 100;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  min-width: 200px;
+  color: #f0f0f0;
+  text-decoration: none;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.dropdown-menu a:hover {
+  color: #ffffff;
+}
+
+.large-header nav a:hover + .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.large-header li:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/*--------- Mobile Compatibility ---------*/
+
+@media (max-width: 768px) {
+  .large-header {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 1rem;
   }
-  
+
+  .large-header nav ul {
+    gap: 1rem;
+  }
+
+  .large-header nav a {
+    font-size: 0.9em;
+  }
+
+  .dropdown-menu {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
